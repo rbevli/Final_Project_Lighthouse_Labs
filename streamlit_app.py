@@ -2,20 +2,15 @@
 import pandas as pd
 import numpy as np
 import random as rd
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from sklearn.neighbors import NearestNeighbors, KNeighborsClassifier
+from sklearn.neighbors import NearestNeighbors
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import StandardScaler,MinMaxScaler
-from sklearn.pipeline import Pipeline, FeatureUnion
-from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
 from collections import namedtuple
 import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-from random import randint
 from PIL import Image
 import joblib
 from xgboost import XGBRegressor
