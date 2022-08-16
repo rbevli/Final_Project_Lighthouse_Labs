@@ -1,3 +1,7 @@
 altair
 pandas
 streamlit
+numpy
+random
+sklearn==0.24.2
+joblib
