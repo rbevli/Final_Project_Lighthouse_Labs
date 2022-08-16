@@ -262,7 +262,7 @@ def buyer():
         
         returned_df = recommender(data)
         
-        st.dataframe(returned_df).style.hide_index()
+        st.dataframe(returned_df)
         # st.write('These are the recomendations: ',value, bedroom)
 
 def seller():
