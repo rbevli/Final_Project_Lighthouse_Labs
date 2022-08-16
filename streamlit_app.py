@@ -1,7 +1,6 @@
 #import libraries
 import pandas as pd
 import numpy as np
-import random as rd
 from sklearn.neighbors import NearestNeighbors
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
