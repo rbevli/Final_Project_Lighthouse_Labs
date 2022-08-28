@@ -1,4 +1,4 @@
-# Final_Project_Lighthouse_Labs
+# Home.io : Toronto House Price Predictor and Recommender
 
 ## Overview
 
