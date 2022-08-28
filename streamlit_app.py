@@ -25,7 +25,7 @@ st.image(img)
 def recommender(data):
     
     #import 
-    df = pd.read_csv("houses_cleaned_baselineKNN_crimedata_foursquare.csv", index_col = 0)
+    df = pd.read_csv(".\Datasets\houses_cleaned_baselineKNN_crimedata_foursquare.csv", index_col = 0)
     X = df[['bathrooms', 'parking', 'type','final_price',
         'Neighbourhood','bedroom', 'den', 'sqft']]
 
@@ -61,7 +61,7 @@ def recommender(data):
 # predictor using regression
 def predictor(data):
     
-    df = pd.read_csv("houses_cleaned_baselineKNN_crimedata_foursquare.csv", index_col = 0)
+    df = pd.read_csv(".\Datasets\houses_cleaned_baselineKNN_crimedata_foursquare.csv", index_col = 0)
 
 
     #load model
